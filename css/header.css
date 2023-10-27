@@ -1,0 +1,182 @@
+.header-body {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+body {
+    background-color: red;
+}
+
+
+.header-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.header-button-table {
+    float: right;
+    margin-right: 20px;
+}
+
+.red-1 {
+    background-image: url("../images/background2.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.top-red-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    margin-left: 50px;
+    color: white;
+}
+
+#pop-header {
+    font-size: 150px;
+}
+
+#pop-content {
+    font-size: 35px;
+}
+
+#pop-buy-button {
+    background-color: lime;
+    color: black;
+    border-radius: 10%;
+    padding: 10px; 
+    width: 15%;
+    height: auto;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.white {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-header {
+    margin-top: 20px;
+    font-size: 35px;
+    color: black;
+}
+
+.green {
+    background-color: lime;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-cell img {
+    width: 100px; 
+    height: auto; 
+    text-align: center; 
+    vertical-align: middle; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
+.pop-it-table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    align-content: center;
+}
+
+.table-buy-button {
+    background-color: orange;
+    color: black;
+    border-radius: 10%;
+    height: 45px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.td-pop-it-table {
+    text-align: center; 
+    vertical-align: middle; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
+.white-2 {
+    background-image: url("../images/bg-grid2.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.rules-table {
+    border-radius: 10%;
+  }
+
+  .td-rules-table {
+    vertical-align: middle; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.photo-cell {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+
+.rules-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.rules-image {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.footer {
+    background-color: darkgray;
+}
+
+.footer-table {
+    text-align: center; 
+    vertical-align: middle; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
